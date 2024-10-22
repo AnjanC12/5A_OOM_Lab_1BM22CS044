@@ -1407,7 +1407,7 @@
 											"top": 591,
 											"width": 183,
 											"height": 13,
-											"text": "Payment"
+											"text": "Application"
 										},
 										{
 											"_type": "LabelView",
@@ -1479,7 +1479,7 @@
 											"top": 614,
 											"width": 183,
 											"height": 13,
-											"text": "+Payment_id",
+											"text": "+App_id",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1496,24 +1496,7 @@
 											"top": 629,
 											"width": 183,
 											"height": 13,
-											"text": "+Type",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGSjmocq2c9PH8=",
-											"_parent": {
-												"$ref": "AAAAAAGSjmmCGWcES48="
-											},
-											"model": {
-												"$ref": "AAAAAAGSjmocqGc6yp8="
-											},
-											"font": "Arial;13;0",
-											"left": 749,
-											"top": 644,
-											"width": 183,
-											"height": 13,
-											"text": "+Amount",
+											"text": "+AppDate",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1521,7 +1504,7 @@
 									"left": 744,
 									"top": 609,
 									"width": 193,
-									"height": 53
+									"height": 38
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1544,16 +1527,16 @@
 											},
 											"font": "Arial;13;0",
 											"left": 749,
-											"top": 667,
+											"top": 652,
 											"width": 183,
 											"height": 13,
-											"text": "+Transaction()",
+											"text": "+Details()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 744,
-									"top": 662,
+									"top": 647,
 									"width": 193,
 									"height": 23
 								},
@@ -2723,7 +2706,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjkt/e1+E4xU="
 							},
-							"name": "Transaction_Id"
+							"name": "Transaction_Id",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2731,7 +2715,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjkt/e1+E4xU="
 							},
-							"name": "Card_no"
+							"name": "Card_no",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2739,7 +2724,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjkt/e1+E4xU="
 							},
-							"name": "Valid"
+							"name": "Valid",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -2790,7 +2776,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjkzFAl+0w9I="
 							},
-							"name": "Invoice"
+							"name": "Invoice",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2798,7 +2785,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjkzFAl+0w9I="
 							},
-							"name": "History"
+							"name": "History",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2806,7 +2794,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjkzFAl+0w9I="
 							},
-							"name": "Date"
+							"name": "Date",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -2881,7 +2870,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjlxvMmYYSGo="
 							},
-							"name": "Expiry_date"
+							"name": "Expiry_date",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3088,7 +3078,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Payment",
+					"name": "Application",
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
@@ -3096,8 +3086,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjmmCGWb8be0="
 							},
-							"name": "Payment_id",
-							"type": ""
+							"name": "App_id"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3105,17 +3094,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjmmCGWb8be0="
 							},
-							"name": "Type",
-							"type": ""
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAGSjmocqGc6yp8=",
-							"_parent": {
-								"$ref": "AAAAAAGSjmmCGWb8be0="
-							},
-							"name": "Amount",
-							"type": ""
+							"name": "AppDate"
 						}
 					],
 					"operations": [
@@ -3125,7 +3104,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjmmCGWb8be0="
 							},
-							"name": "Transaction"
+							"name": "Details"
 						}
 					]
 				},
@@ -3244,7 +3223,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjn5OEAjCHLk="
 							},
-							"name": "Application_name"
+							"name": "Application_name",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3252,7 +3232,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjn5OEAjCHLk="
 							},
-							"name": "Identity_no"
+							"name": "Identity_no",
+							"type": ""
 						}
 					]
 				},
@@ -3302,7 +3283,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjn/ZkAzccT8="
 							},
-							"name": "Acc_no"
+							"name": "Acc_no",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3310,7 +3292,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGSjn/ZkAzccT8="
 							},
-							"name": "Acc_type"
+							"name": "Acc_type",
+							"type": ""
 						}
 					],
 					"operations": [
